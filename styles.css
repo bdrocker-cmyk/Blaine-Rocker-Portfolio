@@ -1,0 +1,64 @@
+/*CSS by Blaine Rocker for Portfolio Website*/
+/*Color Pallette
+dijon = #cfc471
+tan = #a59f76   
+sun = #fae75e   
+slate = #7a796c 
+rock = #504e3c
+mud = #33311e
+*/
+
+/* Global base Mobile First */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cfc471;
+    color: #33311e;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #7a796c;
+    color: #fae75e;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #a59f76;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #33311e;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #7a796c;
+    color: #fae75e;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Media Queries for larger screens */
+@media (min-width: 768px) {
+    nav ul {
+        justify-content: flex-start;
+    }
+    nav ul li {
+        margin: 0 20px;
+    }
+}
